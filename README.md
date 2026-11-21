@@ -1,16 +1,18 @@
 # mc-voice-chat
 
-近くにいるプレイヤーとだけ話せる、NeoForge 26.2 のボイスチャット Mod です。声の届く範囲を 5・10・20・30 ブロックの 4 段階で切り替えられます。離れた相手とは、**通話**と**パーティーVC**で話せます。
+近くにいるプレイヤーとだけ話せる、NeoForge 26.3 のボイスチャット Mod です。声の届く範囲を 5・10・20・30 ブロックの 4 段階で切り替えられます。離れた相手とは、**通話**と**パーティーVC**で話せます。
 
-- 対象: Minecraft 26.2 / NeoForge 26.2.0.88 以降
+- 対象: Minecraft 26.3 / NeoForge 26.3.0.102 以降（Minecraft 26.2 で使う場合は [v1.1.0](https://github.com/htani0817/mc-voice-chat/releases/tag/v1.1.0) を使ってください）
 - 入れる場所: **サーバーと、話す人それぞれのクライアントの両方**
 - 追加のポート開放は要りません（声は Minecraft の接続に相乗りします）
 - Mod を入れていない人もサーバーに入れます（声が聞こえないだけです）
 - Simple Voice Chat とは別の Mod です（名前も Mod の ID もぶつかりません）
 
+![画面端のマイクと範囲の切り替え](images/voice-chat-hud.png)
+
 ## 導入
 
-1. [Releases](https://github.com/htani0817/mc-voice-chat/releases/latest) から `mc-voice-chat-<版>+mc26.2-neoforge.jar` をダウンロードします
+1. [Releases](https://github.com/htani0817/mc-voice-chat/releases/latest) から `mc-voice-chat-<版>+mc26.3-neoforge.jar` をダウンロードします
 2. サーバーの `mods/` に置いて、サーバーを再起動します
 3. 話す人のクライアントの `mods/` にも置きます
 4. ゲームの中で `V` を押し、設定画面の「マイクテスト」で自分の声が返ってくるかを確かめます
