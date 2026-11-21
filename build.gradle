@@ -19,7 +19,7 @@ base {
     archivesName = 'mc-voice-chat'
 }
 
-// 26.2 は Java 25 で動くので Java 25 でビルドする（JDK は foojay が自動取得する）
+// 26.3 も Java 25 で動くので Java 25 でビルドする（JDK は foojay が自動取得する）
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 neoForge {
@@ -91,7 +91,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
 sourceSets.main.resources.srcDir generateModMetadata
 neoForge.ideSyncTask generateModMetadata
 
-// jar 名: mc-voice-chat-1.0.0+mc26.2-neoforge.jar（Concentus は jarJar で META-INF/jarjar/ に入る）
+// jar 名: mc-voice-chat-1.2.0+mc26.3-neoforge.jar（Concentus は jarJar で META-INF/jarjar/ に入る）
 tasks.named('jar', Jar) {
     archiveFileName = "mc-voice-chat-${mod_version}+mc${minecraft_version}-neoforge.jar"
     // 配布する jar にもライセンス（と同梱ライブラリのライセンス）を入れる
